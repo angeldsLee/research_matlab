@@ -4,7 +4,7 @@
 Carry out range alignment on backscattered data, and then implement phase correction. After extracting scattering centers, estimate aspect angle and rotation rate by using slope function and triangle method. Further implement image fusion which can promote image resolution in actual operation, thus obtaining more information about targets.
 
 ### Scatter model: the basis of radar imaging
-<img src="/resultimage/rangealign_phsecorrection/originalmodel.tif" alt="Hog1" width="300px"/>
+<img src="/resultimage/rangealign_phsecorrection/originalmodel.png" alt="Hog1" width="300px"/>
 
 <img src="/features/capture1.png" alt="Hog1" width="300px"/>
 <img src="/features/capture2.png" alt="Hog2" width="300px"/>
