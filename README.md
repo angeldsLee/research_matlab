@@ -4,20 +4,28 @@
 Carry out range alignment on backscattered data, and then implement phase correction. After extracting scattering centers, estimate aspect angle and rotation rate by using slope function and triangle method. Further implement image fusion which can promote image resolution in actual operation, thus obtaining more information about targets.
 
 ### Scatter model: the basis of radar imaging
-<img src="/resultimage/rangealign_phsecorrection/originalmodel.png" alt="Hog1" width="300px"/>
+<img src="/resultimage/rangealign_phsecorrection/originalmodel.png" alt="scatter" width="300px"/>
 
-<img src="/features/capture1.png" alt="Hog1" width="300px"/>
-<img src="/features/capture2.png" alt="Hog2" width="300px"/>
-<img src="/features/capture3.png" alt="Hog3" width="300px"/>
-<img src="/features/capture4.png" alt="Hog4" width="300px"/>
 
-* The extracted features are use by [SVM]() to detection pedestrian candidates.
+### 小相干积累角度ISAR成像仿真(转台模型)
+简单的运动补偿方法: 互相关法平动估计与补偿, 补偿前成像结果如下图所示。
+<img src="/resofmid/1.png" alt="1" width="300px"/>
 
-### Tracking by Kalman filter
-* Using [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter) to predict the movement of pedestrian.
-* The movement vectors look like as following figures.
+### 斜率估计和大相干积累角度PFA算法
+仿真处理的实际数据:补偿前结果如下图所示。
+<img src="/resofmid/4.png" alt="4" width="300px"/>
 
-<img src="/figures/capture8.png" alt="move1" width="300px"/>
-<img src="/figures/5555.png" alt="move3" width="300px"/>
-<img src="/figures/capture10.png" alt="move3" width="300px"/>
-<img src="/figures/capture9.png" alt="move2" width="300px"/>
+### 转速估计
+* Radon Detection of Lines方法,方位向定标前如下图所示:
+<img src="/resofmid/7.png" alt="7" width="300px"/>
+
+* 实验假设转速为0.04rad/s,估计的转速为0.0360rad/s,从估计结果可见,基本反映了真是目标的尺寸信息。
+方位向定标后如下图所示:
+<img src="/resofmid/8.png" alt="8" width="300px"/>
+
+### Fusion example
+<img src="/resofmid/9.png" alt="9" width="300px"/>
+<img src="/resofmid/add.png" alt="add" width="80px"/>
+<img src="/resofmid/10.png" alt="10" width="300px"/>
+<img src="/resofmid/equal.png" alt="equal" width="80px"/>
+<img src="/resofmid/11.png" alt="11" width="300px"/>
