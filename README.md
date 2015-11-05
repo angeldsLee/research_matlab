@@ -28,8 +28,4 @@ Carry out range alignment on backscattered data, and then implement phase correc
 <img src="/resofmid/8.png" alt="8" width="300px"/>
 
 ### Fusion example
-<img src="/resofmid/9.png" alt="9" width="200px"/>
-<img src="/resofmid/add.png" alt="add" width="40px"/>
-<img src="/resofmid/10.png" alt="10" width="200px"/>
-<img src="/resofmid/equal.png" alt="equal" width="40px"/>
-<img src="/resofmid/11.png" alt="11" width="200px"/>
+<img src="/resofmid/fusion_example.png" alt="fusion_example" width="700px"/>
