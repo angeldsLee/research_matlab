@@ -1,11 +1,10 @@
 # ISAR image fusion
 
-### Implement pedestrian detection and tracking by Hog feature and Kalman filter
+### Implement ISAR image fusion from different observing angles.
+Carry out range alignment on backscattered data, and then implement phase correction. After extracting scattering centers, estimate aspect angle and rotation rate by using slope function and triangle method. Further implement image fusion which can promote image resolution in actual operation, thus obtaining more information about targets.
 
-### Detect by Hog feature
-[Histograms of Oriented Gradients(HOG)](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients) feature extraction.
-* Obtaining the human gradient information feature according to HoG operator.
-* With overlapping block moving, the feature is a histograms of 4000 dimensions.
+### Scatter model: the basis of radar imaging
+<img src="/resultimage/rangealign_phsecorrection/originalmodel.tif" alt="Hog1" width="300px"/>
 
 <img src="/features/capture1.png" alt="Hog1" width="300px"/>
 <img src="/features/capture2.png" alt="Hog2" width="300px"/>
