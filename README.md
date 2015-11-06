@@ -5,7 +5,7 @@ Carry out range alignment on backscattered data, and then implement phase correc
 
 ### Scattering Center Model: the basis of radar imaging and Target Model are as below
 <img src="/resofmid/target.png" alt="1" width="300px"/>
-<img src="/resultimage/rangealign_phsecorrection/originalmodel.png" alt="scatter" width="300px"/>
+<img src="/resultimage/rangealign_phsecorrection/originalmodel.png" alt="1" width="300px"/>
 
 
 ### Small Bandwith and Small Angle ISAR Imaging Simulation(Rotation Center Model)
