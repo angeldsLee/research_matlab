@@ -17,7 +17,7 @@ Carry out range alignment on backscattered data, and then implement phase correc
 
 <img src="/resofmid/4.png" alt="4" width="300px"/>
 
-### 转速估计
+### Rotational velocity estimationss
 * Radon Detection of Lines方法,方位向定标前如下图所示:
 
 <img src="/resofmid/7.png" alt="7" width="300px"/>
