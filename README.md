@@ -11,14 +11,21 @@ Carry out range alignment on backscattered data, and then implement phase correc
 ### Small Bandwith and Small Angle ISAR Imaging Simulation(Rotation Center Model)
 Simple Motion Compensation method: CrossCorrelation, before and afer are as below。
 
-<img src="/resofmid/1.png" alt="1" width="300px"/>
-<img src="/resofmid/3.png" alt="1" width="300px"/>
+<img src="/resofmid/1.png" alt="4" width="300px"/>
+<img src="/resofmid/3.png" alt="4" width="300px"/>
 
 ### Big Bandwidth and Big Angle
 Deal with electromagnetic data: PFA method , before and after are as below
 
 <img src="/resofmid/4.png" alt="4" width="300px"/>
 <img src="/resofmid/44.png" alt="4" width="300px"/>
+
+### Range Alignment
+Carry out range motion estimation and range alignment with CrossCorrelation method :
+Range Profile of target Before and After are as below
+
+<img src="/resofmid/rangepro1.png" alt="4" width="300px"/>
+<img src="/resofmid/rangepro2.png" alt="4" width="300px"/>
 
 ### Rotational velocity estimationss
 * Radon Detection of Lines method, Azimuth Rescaling before is as below, from which we can obtain the 
