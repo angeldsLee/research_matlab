@@ -4,7 +4,7 @@
 Carry out range alignment on backscattered data, and then implement phase correction. After extracting scattering centers, estimate aspect angle and rotation rate by using slope function and triangle method. Further implement image fusion which can promote image resolution in actual operation, thus obtaining more information about targets.
 
 ### Scattering Center Model: the basis of radar imaging and Target Model are as below
-<img src="/resofmid/target.png" alt="1" width="300px"/>
+<img src="/resofmid/target.png" alt="1" width="230px"/>
 <img src="/resultimage/rangealign_phsecorrection/originalmodel.png" alt="1" width="300px"/>
 
 
@@ -15,13 +15,14 @@ Simple Motion Compensation method: CrossCorrelation, before and afer are as belo
 <img src="/resofmid/3.png" alt="1" width="300px"/>
 
 ### Big Bandwidth and Big Angle
-Deal with electromagnetic data: PFA method , before and ater are as below
+Deal with electromagnetic data: PFA method , before and after are as below
 
 <img src="/resofmid/4.png" alt="4" width="300px"/>
 <img src="/resofmid/44.png" alt="4" width="300px"/>
 
 ### Rotational velocity estimationss
-* Radon Detection of Lines method, Azimuth Rescaling before is as below:
+* Radon Detection of Lines method, Azimuth Rescaling before is as below, from which we can obtain the 
+correct size of target
 
 <img src="/resofmid/7.png" alt="7" width="300px"/>
 
