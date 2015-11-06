@@ -4,8 +4,8 @@
 Carry out range alignment on backscattered data, and then implement phase correction. After extracting scattering centers, estimate aspect angle and rotation rate by using slope function and triangle method. Further implement image fusion which can promote image resolution in actual operation, thus obtaining more information about targets.
 
 ### Scattering Center Model: the basis of radar imaging and Target Model are as below
-<img src="/resofmid/target.png" alt="1" width="230px"/>
-<img src="/resultimage/rangealign_phsecorrection/originalmodel.png" alt="1" width="300px"/>
+<img src="/resofmid/target.png" alt="4" width="300px"/>
+<img src="/resultimage/rangealign_phsecorrection/originalmodel.png" alt="4" width="300px"/>
 
 
 ### Small Bandwith and Small Angle ISAR Imaging Simulation(Rotation Center Model)
